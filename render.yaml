@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ss-proxy
+    env: docker
+    dockerfilePath: Dockerfile
+    port: 10000
