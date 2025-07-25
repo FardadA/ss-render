@@ -3,4 +3,5 @@ services:
     name: ss-proxy
     env: docker
     dockerfilePath: Dockerfile
-    port: 10000
+    plan: free
+    autoDeploy: true
